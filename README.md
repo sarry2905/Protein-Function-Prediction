@@ -92,18 +92,9 @@ Final_Dataset.csv contains all these features for a protein as well as 1739 clas
 
 Dataset for the 9 phyla were generated using features_dataset.py with 1,71,212 samples of protein in total.
 
-Sample Dataset for the family Fusobacteria is provided. At the time of Experiment, Fusobacteria had 402 reviewed samples
-After selecting samples with relevant GO terms, 249 samples remained. That were used to generate the features dataset.
-
-1. Fuso_train.csv  ------  187 samples from this phyla were used for Training.
-
-2. Fuso_test.csv   ------  62 samples from this phyla were used for Testing.
-
-3. Hypothetical Protein Features Fuso.csv ------ 212 samples of unreviewed proteins of this phyla were used for which predictions are made.
-
 The hypothetical Protein features file was generated the same way the final_dataset.csv is generated (removing the GO terms from the script) to make predictions. 
 
-Complete Dataset for 9 phyla can be found at: https://github.com/suraiyajabin/ProteinFunctionPredictionDataSet
+Complete Dataset for 9 phyla can also be found at: https://github.com/suraiyajabin/ProteinFunctionPredictionDataSet
 
 # Training
 
